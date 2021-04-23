@@ -267,13 +267,13 @@ span, a, a:hover {
   background: #ff8c00;
 }
 .butn-bg:after {
-  background: #fff;
+  background: #ff8c00;
 }
 .butn-bg:hover span {
   color: #ff8c00;
 }
 .butn-bg span {
-  color: #fff;
+  color: #ff8c00;
 }
 
 .butn-bord {
