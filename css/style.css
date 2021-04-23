@@ -240,7 +240,7 @@ span, a, a:hover {
   overflow: hidden;
 }
 .butn:after {
-  content: '';
+  /* content: ''; */
   width: 100%;
   height: 0;
   position: absolute;
