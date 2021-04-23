@@ -239,7 +239,7 @@ span, a, a:hover {
   outline: none !important;
   overflow: hidden;
 }
-.butn:after {
+/*.butn:after {
   content: '';
   width: 100%;
   height: 0;
@@ -251,7 +251,7 @@ span, a, a:hover {
   transition: all .4s;
 }
 .butn:hover:after {
-  height: 100%;
+  height: 100%;*/
 }
 .butn span {
   font-weight: 700;
@@ -266,12 +266,12 @@ span, a, a:hover {
 .butn-bg {
   background: #ff8c00;
 }
-.butn-bg:after {
+/*.butn-bg:after {
   background: #ff8c00;
 }
 .butn-bg:hover span {
   color: #ff8c00;
-}
+}*/
 .butn-bg span {
   color: #ff8c00;
 }
