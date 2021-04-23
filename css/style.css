@@ -249,9 +249,9 @@ span, a, a:hover {
   background: #ff8c00;
   -webkit-transition: all .4s;
   transition: all .4s;
-}
+}*/
 .butn:hover:after {
-  height: 100%;*/
+  height: 100%;
 }
 .butn span {
   font-weight: 700;
@@ -264,7 +264,7 @@ span, a, a:hover {
 }
 
 .butn-bg {
-  background: #ff8c00;
+  background: #ffa500;
 }
 /*.butn-bg:after {
   background: #ff8c00;
@@ -295,7 +295,6 @@ span, a, a:hover {
 -----------------------------------------------------------------*/
 .logo {
   position: absolute;
-  text-align: right;
   top: 30px;
   left: 30px;
   z-index: 9999999999;
@@ -308,6 +307,7 @@ span, a, a:hover {
 }
 .js .pages-nav__item .link {
   color: #fff;
+  text-align:right;
   font-weight: 600;
   font-size: 15px;
   margin: 15px 30px;
