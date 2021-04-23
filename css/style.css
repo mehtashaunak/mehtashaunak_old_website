@@ -295,6 +295,7 @@ span, a, a:hover {
 -----------------------------------------------------------------*/
 .logo {
   position: absolute;
+  text-align: right;
   top: 30px;
   left: 30px;
   z-index: 9999999999;
@@ -313,7 +314,7 @@ span, a, a:hover {
   cursor: pointer;
 }
 .js .pages-nav__item .link:hover {
-  color: #d0bb79;
+  color: #ff8c00;
 }
 
 .menu-button {
@@ -327,7 +328,7 @@ span, a, a:hover {
 }
 
 .menu-button::before, .menu-button::after, .menu-button span {
-  background: #d0bb79;
+  background: #ff8c00;
 }
 
 /* ----------------------------------------------------------------
