@@ -305,7 +305,10 @@ span, a, a:hover {
 }
 .js .pages-nav__item .link {
   color: #fff;
-  /* float:right; */
+  float:right;
+  top: -40px;
+  /* right: 70px; */
+  /* position: relative; */
   text-align:center;
   font-weight: 600;
   font-size: 15px;
@@ -320,7 +323,7 @@ span, a, a:hover {
   position: absolute;
   /* float:right; */
   top: 0;
-  right: calc(100% - 85px);
+  left: calc(100% - 85px);
   background: #2A2A2E;
   border: 15px solid #2A2A2E;
   padding: 20px;
