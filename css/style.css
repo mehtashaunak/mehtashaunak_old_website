@@ -1274,54 +1274,13 @@ button.navbar-toggler.collapsed .icon-expand {
 .phone a:hover {
   text-decoration: underline; }
 
+
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
 .phone a span {
   opacity: 0.5;
   color: var(--secondary-color); }
 
 /*# sourceMappingURL=style.css.map */
-
-/* ----------------------------------------------------------------
-     [ End Theme ]
------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
- 	 [ 13 Footer ]
------------------------------------------------------------------*/
-
-.w3l-footer {
-  border-top: 1px solid var(--border-color); }
-  .w3l-footer ul.social li {
-    display: inline-block;
-    margin-left: 6px; }
-  .w3l-footer ul.social li a {
-    color: #aaa;
-    width: 30px;
-    display: block;
-    text-align: center;
-    font-size: 18px; }
-  .w3l-footer ul.social li a:hover {
-    color: var(--primary-color); }
-  .w3l-footer #movetop {
-    display: none;
-    position: fixed;
-    bottom: 40px;
-    right: 15px;
-    z-index: 99;
-    font-size: 24px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: #fff;
-    width: 48px;
-    height: 48px;
-    background: var(--primary-color);
-    padding: 0;
-    line-height: 36px;
-    border-radius: 50px;
-    transition: 0.3s ease-out; }
-  .w3l-footer #movetop:hover {
-    transform: translate3d(0, -5px, 0);
-    -webkit-transform: translate3d(0, -5px, 0);
-    transition: 0.3s ease-out; }
-  @media only screen and (max-width: 991px) {
-    .w3l-footer .footer-left {
-      text-align: center; } }
