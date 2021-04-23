@@ -245,7 +245,7 @@ span, a, a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #d0bb79;
+  background: #ff8c00;
   -webkit-transition: all .4s;
   transition: all .4s;
 }
@@ -256,7 +256,7 @@ span, a, a:hover {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 2px;
-  color: #d0bb79;
+  color: #ff8c00;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
@@ -269,7 +269,7 @@ span, a, a:hover {
   background: #fff;
 }
 .butn-bg:hover span {
-  color: #d0bb79;
+  color: #ff8c00;
 }
 .butn-bg span {
   color: #fff;
@@ -280,7 +280,7 @@ span, a, a:hover {
   border: 1px solid #d0bb79;
 }
 .butn-bord:hover {
-  border-color: #d0bb79;
+  border-color: #ff8c00;
 }
 .butn-bord:hover span {
   color: #fff;
