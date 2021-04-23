@@ -263,7 +263,7 @@ span, a, a:hover {
 }
 
 .butn-bg {
-  background: #d0bb79;
+  background: #ff8c00;
 }
 .butn-bg:after {
   background: #fff;
@@ -277,7 +277,7 @@ span, a, a:hover {
 
 .butn-bord {
   background: transparent;
-  border: 1px solid #d0bb79;
+  border: 1px solid #ff8c00;
 }
 .butn-bord:hover {
   border-color: #ff8c00;
