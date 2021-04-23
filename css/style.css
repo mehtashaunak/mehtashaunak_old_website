@@ -1,20 +1,14 @@
 /*-----------------------------------------------------------------------------------
-
  Theme Name: Stark
  Description: The Portfolio Onepage Template
  Author: ui-themez
  Author URI: http://themeforest.net/user/ui-themez
  Version: 1.0
-
  Main Color   : #FAC921
  main Fonts    : Poppins , Open Sans
-
 -----------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
-
  == Table Of Content
-
-
 	01 Basics
 	02 Buttons
 	03 pages-nav
@@ -28,7 +22,6 @@
 	11 Responsive
 	12 Theme Switch
  	13 Footer
-
 ---------------------------------------------------------------- */
 /* ----------------------------------------------------------------
      [ 01 Start Basics ]
@@ -296,9 +289,11 @@ span, a, a:hover {
      [ 03 Start pages-nav]
 -----------------------------------------------------------------*/
 .logo {
-  position: absolute;
+  
+  /* float:right; */
   top: 30px;
   right: 30px;
+  position: absolute;
   z-index: 9999999999;
   width: 70px;
 }
@@ -306,10 +301,11 @@ span, a, a:hover {
 .js .pages-nav__item {
   padding: 0;
   width: auto;
+  /* float:right; */
 }
 .js .pages-nav__item .link {
   color: #fff;
-  float:right;
+  /* float:right; */
   text-align:center;
   font-weight: 600;
   font-size: 15px;
@@ -322,9 +318,9 @@ span, a, a:hover {
 
 .menu-button {
   position: absolute;
-  float:right;
+  /* float:right; */
   top: 0;
-  left: calc(100% - 85px);
+  right: calc(100% - 85px);
   background: #2A2A2E;
   border: 15px solid #2A2A2E;
   padding: 20px;
@@ -431,12 +427,12 @@ span, a, a:hover {
 }
 .home .content .caption .social {
   display: inline-block;
-	right:25px;
-    	bottom: 15px;
+  /* top: -20px; */
   margin-left: 10px;
+  right:25px;
+  bottom: 15px;
   position: absolute;
-	
-	
+  
 }
 .home .content .caption .social .icon {
   float:right;
@@ -1285,6 +1281,7 @@ button.navbar-toggler.collapsed .icon-expand {
   margin-top: -50px;
 .phone a span {
   opacity: 0.5;
-  color: var(--secondary-color); }
+  color: var(--secondary-color);
+ }
 
 /*# sourceMappingURL=style.css.map */
