@@ -240,17 +240,8 @@ span, a, a:hover {
   overflow: hidden;
 }
 .butn:after {
-  padding: 15px 35px;
-  border-radius: 5px;
-  position: relative;
-  z-index: 3;
-  border: 1px solid transparent;
-  -webkit-transition: all .4s;
-  transition: all .4s;
-  cursor: pointer;
-  outline: none !important;
-  overflow: hidden;
-/*   content: '';
+
+  content: 'RESUME';
   width: 100%;
   height: 0;
   position: absolute;
@@ -258,7 +249,7 @@ span, a, a:hover {
   bottom: 0;
   background: #ff8c00;
   -webkit-transition: all .4s;
-  transition: all .4s; */
+  transition: all .4s;
 }
 .butn:hover:after {
   height: 100%;
@@ -277,6 +268,9 @@ span, a, a:hover {
   background: #ffa500;
 }
 .butn-bg:after {
+  background: #ff8c00;
+}
+.butn-bg:hover:after{
   background: #ff8c00;
 }
 .butn-bg:hover span {
