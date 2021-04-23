@@ -241,15 +241,15 @@ span, a, a:hover {
 }
 .butn:after {
 
-  content: 'RESUME';
-  width: 100%;
-  height: 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background: #ff8c00;
+/*   content: 'RESUME'; */
+  padding: 15px 35px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+  border: 1px solid transparent;
   -webkit-transition: all .4s;
   transition: all .4s;
+  background: #ff8c00;
 }
 .butn:hover:after {
   height: 100%;
@@ -266,9 +266,6 @@ span, a, a:hover {
 
 .butn-bg {
   background: #ffa500;
-}
-.butn-bg:after {
-  background: #ff8c00;
 }
 .butn-bg:hover:after{
   background: #ff8c00;
