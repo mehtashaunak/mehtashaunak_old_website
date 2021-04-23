@@ -307,7 +307,8 @@ span, a, a:hover {
 }
 .js .pages-nav__item .link {
   color: #fff;
-  text-align:right;
+  float:right;
+  text-align:center;
   font-weight: 600;
   font-size: 15px;
   margin: 15px 30px;
