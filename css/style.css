@@ -268,10 +268,10 @@ span, a, a:hover {
 }
 /*.butn-bg:after {
   background: #ff8c00;
-}
+}*/
 .butn-bg:hover span {
   color: #ff8c00;
-}*/
+}
 .butn-bg span {
   color: #ff8c00;
 }
@@ -314,7 +314,7 @@ span, a, a:hover {
   cursor: pointer;
 }
 .js .pages-nav__item .link:hover {
-  color: #ff8c00;
+  color: #ffa500;
 }
 
 .menu-button {
@@ -328,7 +328,7 @@ span, a, a:hover {
 }
 
 .menu-button::before, .menu-button::after, .menu-button span {
-  background: #ff8c00;
+  background: #ffa500;
 }
 
 /* ----------------------------------------------------------------
