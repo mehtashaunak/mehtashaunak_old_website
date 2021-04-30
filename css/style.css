@@ -145,7 +145,37 @@ span, a, a:hover {
   font-weight: 800;
   text-transform: uppercase;
 }
+
 .sub-head span {
+  color: #d0bb79;
+}
+
+.sub-head-title {
+  padding-bottom: ;
+  /* border-bottom: 1px dashed #847c7c; */
+  position: relative;
+}
+/* .sub-head-title:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 1px solid #847c7c;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  bottom: -5px; */
+}
+.sub-head-title h5 {
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.sub-head h6 {
+  color: #fff;
+  font-weight: 50;
+  /* text-transform: uppercase; */
+}
+.sub-head-title span {
   color: #d0bb79;
 }
 
@@ -305,7 +335,7 @@ span, a, a:hover {
 }
 .js .pages-nav__item .link {
   color: #fff;
-  float:right;
+  /* float:right; */
   top: -40px;
   /* right: 70px; */
   /* position: relative; */
@@ -332,6 +362,31 @@ span, a, a:hover {
 
 .menu-button::before, .menu-button::after, .menu-button span {
   background: #ffa500;
+}
+
+.js .pages-nav__item1 {
+  padding: 0;
+  width: auto;
+  /* float:right; */
+  top:10px;
+  right:100px;
+  position:absolute;
+}
+.js .pages-nav__item1 .link {
+  display: inline-block;
+  color: #fff;
+  /* right: 100px; */
+  /* top: -40px; */
+  /* right: 70px; */
+  /* position: relative; */
+  text-align:center;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px 30px;
+  cursor: pointer;
+}
+.js .pages-nav__item1 .link:hover {
+  color: #ffa500;
 }
 
 /* ----------------------------------------------------------------
@@ -507,13 +562,19 @@ span, a, a:hover {
   color: #d0bb79;
   margin-bottom: 30px;
 }
+.about .services .item h5 {
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 7px;
+}
 .about .services .item h6 {
   font-weight: 300;
   letter-spacing: 2px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .about .services .item p {
-  font-size: 13px;
+  font-size: 15px;
+  margin-bottom: -45px;
 }
 .about .price .item {
   padding: 40px 30px;
