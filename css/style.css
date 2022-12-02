@@ -55,7 +55,7 @@ p {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  color: #999;
+  color: rgb(201, 201, 201);
   line-height: 2;
   margin: 0;
 }
@@ -164,7 +164,8 @@ span, a, a:hover {
   position: absolute;
   right: -10px;
   bottom: -5px; */
-}
+/* } */
+
 .sub-head-title h5 {
   color: #fff;
   font-weight: 800;
@@ -296,6 +297,7 @@ span, a, a:hover {
 }
 .butn-bg:hover span {
   color: rgb(3, 3, 3);
+  text-decoration: underline;
 }
 .butn-bg span {
   color: #fff;
@@ -369,7 +371,7 @@ span, a, a:hover {
   width: auto;
   /* float:right; */
   top:10px;
-  right:100px;
+  right:200px;
   position:absolute;
 }
 .js .pages-nav__item1 .link {
@@ -381,7 +383,7 @@ span, a, a:hover {
   /* position: relative; */
   text-align:center;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 18px;
   margin: 15px 30px;
   cursor: pointer;
 }
@@ -389,6 +391,27 @@ span, a, a:hover {
   color: #ffa500;
 }
 
+.underline-title-on-hover {
+  color: #ffffff;
+  /* text-decoration: underline; */
+}
+
+.underline-title-on-hover:hover{
+  color: #ffa500;
+  text-decoration-color: #ffa500;
+  text-decoration: underline;
+}
+
+.underline-on-hover {
+  color: #ffa500;
+  /* text-decoration: underline; */
+}
+
+.underline-on-hover:hover{
+  color: #bfb8ff;
+  text-decoration-color: #bfb8ff;
+  text-decoration: underline;
+}
 /* ----------------------------------------------------------------
      [ End pages-nav ]
 -----------------------------------------------------------------*/
@@ -421,7 +444,7 @@ span, a, a:hover {
      [ 05 Start home ]
 -----------------------------------------------------------------*/
 .home .img {
-  background: #12141C;
+  background: #0D0F16;
   height: 100vh;
   padding: 30px;
 }
@@ -486,17 +509,17 @@ span, a, a:hover {
 .home .content .caption .social {
   display: inline-block;
   /* top: -20px; */
-  margin-left: 10px;
-  right:25px;
-  bottom: 15px;
-  position: absolute;
+  margin-left: 50px;
+  right: 25px;
+  /* bottom: 0px; */
+  position: relative;
   
 }
 .home .content .caption .social .icon {
   float:right;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
   text-align: center;
   border-radius: 50%;
   background: #12141C;
@@ -506,8 +529,9 @@ span, a, a:hover {
   transition: all .4s;
 }
 .home .content .caption .social .icon:hover {
-  color: #d0bb79;
-  border-color: #d0bb79;
+  border-style: dashed;
+  color: #ffa500;
+  border-color: #ffa500;
 }
 
 /* ----------------------------------------------------------------
@@ -1343,6 +1367,7 @@ button.navbar-toggler.collapsed .icon-expand {
 .footer {
   height: 50px;
   margin-top: -50px;
+}
 .phone a span {
   opacity: 0.5;
   color: var(--secondary-color);
