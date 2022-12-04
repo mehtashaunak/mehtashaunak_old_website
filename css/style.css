@@ -60,10 +60,15 @@ p {
   margin: 0;
 }
 
-img {
+/* img {
   width: 100%;
   height: auto;
 }
+
+img {
+  width: 100%;
+  height: auto;
+} */
 
 ul {
   margin-bottom: 0;
@@ -147,11 +152,11 @@ span, a, a:hover {
 }
 
 .sub-head span {
-  color: #d0bb79;
+  color:  orange;
 }
 
 .sub-head-title {
-  padding-bottom: ;
+  padding-bottom: 0px;
   /* border-bottom: 1px dashed #847c7c; */
   position: relative;
 }
@@ -163,13 +168,13 @@ span, a, a:hover {
   border-radius: 50%;
   position: absolute;
   right: -10px;
-  bottom: -5px; */
-/* } */
+  bottom: -5px;
+} */
 
 .sub-head-title h5 {
   color: #fff;
   font-weight: 800;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .sub-head h6 {
   color: #fff;
@@ -177,7 +182,7 @@ span, a, a:hover {
   /* text-transform: uppercase; */
 }
 .sub-head-title span {
-  color: #d0bb79;
+  color: #ccc;
 }
 
 .bg-gray {
@@ -246,6 +251,10 @@ span, a, a:hover {
   background: #d0bb79;
 }
 
+.box {
+  display: flex;
+  align-items:center;
+}
 /* ----------------------------------------------------------------
      [ End Basics ]
 -----------------------------------------------------------------*/
@@ -314,6 +323,68 @@ span, a, a:hover {
   color: #ffa500;
 }
 
+
+.butn_pub {
+  padding: 5px 15px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+  border: 1px solid transparent;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+  outline: none !important;
+  overflow: hidden;
+}
+.butn_pub:after {
+
+/*   content: 'RESUME'; */
+  padding: 15px 35px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 3;
+  border: 1px solid transparent;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  background: #ffa500;
+}
+.butn_pub:hover:after {
+  height: 100%;
+}
+.butn_pub span {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ffa500;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.butn_pub-bg {
+  background: #ffa500;
+}
+.butn_pub-bg:hover:after{
+  background: #e27d02;
+}
+.butn_pub-bg:hover span {
+  color: rgb(3, 3, 3);
+  text-decoration: underline;
+}
+.butn_pub-bg span {
+  color: #fff;
+}
+
+.butn_pub-bord {
+  background: transparent;
+  border: 1px solid #ff8c00;
+}
+.butn_pub-bord:hover {
+  border-color: #ff8c00;
+}
+.butn_pub-bord:hover span {
+  color: #ffa500;
+}
 /* ----------------------------------------------------------------
      [ End Buttons ]
 -----------------------------------------------------------------*/
@@ -383,7 +454,7 @@ span, a, a:hover {
   /* position: relative; */
   text-align:center;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   margin: 15px 30px;
   cursor: pointer;
 }
