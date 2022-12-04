@@ -991,7 +991,7 @@ span, a, a:hover {
     padding: 0%;
   }
   .home.caption{
-    overflow-x: hidden;
+    overflow-x:visible;
     overflow-y: scroll;
     position: sticky;
   }
