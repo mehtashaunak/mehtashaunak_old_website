@@ -977,6 +977,7 @@ span, a, a:hover {
 
 
   .home .img {
+    display: block;
     padding: 50px;
   }
 
@@ -988,6 +989,9 @@ span, a, a:hover {
     left: 0px;
     top: 0px;
     padding: 0%;
+  }
+  .home.caption{
+    position: sticky;
   }
 }
 @media screen and (max-width: 575px) {
