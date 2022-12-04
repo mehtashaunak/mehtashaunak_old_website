@@ -1030,6 +1030,45 @@ span, a, a:hover {
   .about .intro {
     font-size: 17px;
   }
+  .home .img {
+    padding: 20px;
+  }
+
+  .home .img img {
+    margin: 0;
+  }
+
+  .home .img .pattern:after {
+    left: 0px;
+    top: 0px;
+    padding: 0%;
+  }
+  .home.caption{
+    overflow-x:scroll;
+    overflow-y: scroll;
+    position: sticky;
+  }
+  .home .content .caption .social {
+    display: inline-block;
+    top: 50px;
+    margin-left: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    position: relative;
+  }
+  .home .content .caption .social .icon {
+    /* float:right; */
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: #12141C;
+    border: 1px solid #2D2D32;
+    margin: 0 2px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
 }
 /* ----------------------------------------------------------------
      [ End Responsive ]
