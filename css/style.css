@@ -1263,6 +1263,15 @@ span, a, a:hover {
     margin: 0 30px;
   }
 
+  .js .pages-nav__item {
+    padding: 15px 0;
+    float: left;
+  }
+
+  .js .pages-nav__item .link {
+    margin: 0 30px;
+  }
+
   .home .img {
     padding: 50px;
   }
