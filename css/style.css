@@ -1135,7 +1135,17 @@ span, a, a:hover {
   float: left;
 }
 .contact-info .cont {
+  text-decoration: underline;
   margin-left: 80px;
+}
+.underline-contact-on-hover:hover{
+  color: orange;
+  text-decoration-color: orange;
+  text-decoration: underline;
+}
+.contact-info .cont.link:hover{
+  cursor: pointer;
+  color: orange;
 }
 .contact-info .cont h6 {
   font-size: 16px;
