@@ -1254,12 +1254,12 @@ span, a, a:hover {
     padding-top: 80px;
   }
 
-  .js .pages-nav__item {
+  .js .pages-nav__item1 {
     padding: 15px 0;
     float: left;
   }
 
-  .js .pages-nav__item .link {
+  .js .pages-nav__item1 .link {
     margin: 0 30px;
   }
 
