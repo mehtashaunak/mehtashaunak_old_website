@@ -1218,7 +1218,7 @@ span, a, a:hover {
     font-size: 40px;
   }
 }
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .mb-sm50 {
     margin-bottom: 50px;
   }
@@ -1262,9 +1262,19 @@ span, a, a:hover {
   .js .pages-nav__item .link {
     margin: 0 30px;
   }
+  .js .pages-nav__item1 {
+    padding: 15px 0;
+    float: left;
+  }
+
+  .js .pages-nav__item1 .link {
+    margin: 0 30px;
+  }
+
 
   .home .img {
-    padding: 50px;
+    display: none;
+    /* padding: 50px; */
   }
 
   .home .img img {
@@ -1272,14 +1282,16 @@ span, a, a:hover {
   }
 
   .home .img .pattern:after {
-    left: -30px;
+    left: 0px;
+    top: 0px;
+    padding: 0%;
   }
 
   .resume .exp .date b,
   .resume .edu .date b {
     font-size: 22px;
   }
-} */
+}
 /* @media screen and (max-width: 575px) {
   .section-padding {
     padding: 60px 15px;
