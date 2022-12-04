@@ -510,18 +510,20 @@ span, a, a:hover {
 /* ----------------------------------------------------------------
      [ End page ]
 -----------------------------------------------------------------*/
+
 /* ----------------------------------------------------------------
-     [ 05 Start home ]
+     [ 06 Start about ]
 -----------------------------------------------------------------*/
-.home .img {
+
+.about .img {
   /* background: #0D0F16; */
   height: 100vh;
   padding: 30px;
 }
-.home .img .pattern {
+.about .img .pattern {
   position: relative;
 }
-.home .img .pattern:after {
+.about .img .pattern:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -532,12 +534,12 @@ span, a, a:hover {
   top: 30px;
   opacity: .5;
 }
-.home .img img {
+.about .img img {
   position: relative;
   margin-left: 150px;
   z-index: 2;
 }
-.home .content:after {
+.about .content:after {
   content: '';
   position: relative;
   top: 0;
@@ -549,10 +551,10 @@ span, a, a:hover {
   opacity: .8;
   z-index: -1;
 }
-.home .content .caption {
+.about .content .caption {
   margin-left: 100px;
 }
-.home .content .caption h6 {
+.about .content .caption h6 {
   font-size: 14px;
   letter-spacing: 2px;
   display: inline-block;
@@ -560,7 +562,7 @@ span, a, a:hover {
   position: relative;
   z-index: 3;
 }
-.home .content .caption h6:after {
+.about .content .caption h6:after {
   content: '';
   width: 100%;
   height: 10px;
@@ -571,12 +573,12 @@ span, a, a:hover {
   opacity: .4;
   z-index: -1;
 }
-.home .content .caption h1 {
+.about .content .caption h1 {
   color: #eee;
   font-weight: 700;
   margin-bottom: 15px;
 }
-.home .content .caption .social {
+.about .content .caption .social {
   display: inline-block;
   /* top: -20px; */
   margin-left: 50px;
@@ -585,7 +587,7 @@ span, a, a:hover {
   position: relative;
   
 }
-.home .content .caption .social .icon {
+.about .content .caption .social .icon {
   float:right;
   width: 50px;
   height: 50px;
@@ -598,18 +600,13 @@ span, a, a:hover {
   -webkit-transition: all .4s;
   transition: all .4s;
 }
-.home .content .caption .social .icon:hover {
+.about .content .caption .social .icon:hover {
   border-style: dashed;
   color: #ffa500;
   border-color: #ffa500;
 }
 
-/* ----------------------------------------------------------------
-     [ End home ]
------------------------------------------------------------------*/
-/* ----------------------------------------------------------------
-     [ 06 Start about ]
------------------------------------------------------------------*/
+
 .about .intro {
   color: #eee;
   font-weight: 600;
@@ -906,20 +903,20 @@ span, a, a:hover {
             order: 0;
   }
 
-  .home .img {
+  .about .img {
     padding: 0;
   }
-  .home .img .pattern:after {
+  .about .img .pattern:after {
     left: 40px;
     top: 30px;
   }
-  .home .img img {
+  .about .img img {
     margin-left: 70px;
   }
-  .home .content .caption {
+  .about .content .caption {
     margin-left: 20px;
   }
-  .home .content .caption h1 {
+  .about .content .caption h1 {
     font-size: 40px;
   }
 }
@@ -977,25 +974,25 @@ span, a, a:hover {
   }
 
 
-  .home .img {
+  .about .img {
     padding: 20px;
   }
 
-  .home .img img {
+  .about .img img {
     margin: 0;
   }
 
-  .home .img .pattern:after {
+  .about .img .pattern:after {
     left: 0px;
     top: 0px;
     padding: 0%;
   }
-  .home.caption{
+  .about.caption{
     overflow-x:scroll;
     overflow-y: scroll;
     position: sticky;
   }
-  .home .content .caption .social {
+  .about .content .caption .social {
     display: inline-block;
     top: 50px;
     margin-left: 0px;
@@ -1003,7 +1000,7 @@ span, a, a:hover {
     /* bottom: 0px; */
     position: relative;
   }
-  .home .content .caption .social .icon {
+  .about .content .caption .social .icon {
     /* float:right; */
     width: 50px;
     height: 50px;
@@ -1029,25 +1026,25 @@ span, a, a:hover {
   .about .intro {
     font-size: 17px;
   }
-  .home .img {
+  .about .img {
     padding: 20px;
   }
 
-  .home .img img {
+  .about .img img {
     margin: 0;
   }
 
-  .home .img .pattern:after {
+  .about .img .pattern:after {
     left: 0px;
     top: 0px;
     padding: 0%;
   }
-  .home.caption{
+  .about.caption{
     overflow-x:scroll;
     overflow-y: scroll;
     position: sticky;
   }
-  .home .content .caption .social {
+  .about .content .caption .social {
     display: inline-block;
     top: 50px;
     margin-left: 0px;
@@ -1055,7 +1052,7 @@ span, a, a:hover {
     /* bottom: 0px; */
     position: relative;
   }
-  .home .content .caption .social .icon {
+  .about .content .caption .social .icon {
     /* float:right; */
     width: 50px;
     height: 50px;
