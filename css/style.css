@@ -424,7 +424,7 @@ span, a, a:hover {
   position: absolute;
   /* float:right; */
   top: 0;
-  left: calc(100% - 85px);
+  left: calc(100% - 120px);
   background: #2A2A2E;
   border: 15px solid #2A2A2E;
   padding: 20px;
