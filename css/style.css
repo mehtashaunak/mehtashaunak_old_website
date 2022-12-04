@@ -1278,6 +1278,7 @@ span, a, a:hover {
   }
 
   .home .img img {
+    display: none;
     margin: 0;
   }
 
@@ -1287,9 +1288,11 @@ span, a, a:hover {
     padding: 0%;
   }
 
-  .resume .exp .date b,
-  .resume .edu .date b {
-    font-size: 22px;
+  .about .img {
+    display: none;
+  }
+  .about .img img {
+    display:none
   }
 }
 /* @media screen and (max-width: 575px) {
