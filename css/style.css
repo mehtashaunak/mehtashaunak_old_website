@@ -493,9 +493,9 @@ span, a, a:hover {
 
 .page .content, .page.home {
   height: 100vh;
-  overflow-y: scroll;
-  /* -ms-overflow-style: none; */
-  /* overflow: -moz-scrollbars-none; */
+  overflow-y: none;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 
 .page .content::-webkit-scrollbar {
@@ -991,7 +991,7 @@ span, a, a:hover {
     padding: 0%;
   }
   .home.caption{
-    overflow-x:visible;
+    /* overflow-x:visible; */
     overflow-y: scroll;
     position: sticky;
   }
