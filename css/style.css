@@ -494,9 +494,9 @@ span, a, a:hover {
 .page .content, .page.home {
   height: 100vh;
   overflow-y: none;
-  overflow-x: auto;
-  /* -ms-overflow-style: none; */
-  /* overflow: -moz-scrollbars-none; */
+  overflow-x:hidden;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 
 .page .content::-webkit-scrollbar {
@@ -996,7 +996,27 @@ span, a, a:hover {
     overflow-y: scroll;
     position: sticky;
   }
-}
+  .home .content .caption .social {
+    display: inline-block;
+    top: 50px;
+    margin-left: 0px;
+    right: 0px;
+    /* bottom: 0px; */
+    position: relative;
+  }
+  .home .content .caption .social .icon {
+    /* float:right; */
+    width: 50px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: #12141C;
+    border: 1px solid #2D2D32;
+    margin: 0 2px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+  }
 @media screen and (max-width: 575px) {
   .section-padding {
     padding: 60px 15px;
