@@ -391,11 +391,11 @@ span, a, a:hover {
 -----------------------------------------------------------------*/
 .logo {
   
-  /* float:right; */
-  top: 30px;
-  right: 30px;
-  position: absolute;
-  z-index: 9999999999;
+  float:right;
+  /* top: 30px;
+  right: 30px; */
+  /* position: absolute; */
+  /* z-index: 0; */
   width: 70px;
 }
 
